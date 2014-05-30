@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutputConsole", "ConsoleOutput\OutputConsole.csproj", "{756083C9-211E-4A0F-9962-E150C14E020D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyManager", "JSDependencyManager\DependencyManager.csproj", "{4F91B374-83AB-46BE-84B5-B36ADA247E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeWebsite", "PrototypeWebsite\PrototypeWebsite.csproj", "{984B3171-0397-4F0F-AE7A-CFB39533437C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756083C9-211E-4A0F-9962-E150C14E020D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756083C9-211E-4A0F-9962-E150C14E020D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756083C9-211E-4A0F-9962-E150C14E020D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756083C9-211E-4A0F-9962-E150C14E020D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F91B374-83AB-46BE-84B5-B36ADA247E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F91B374-83AB-46BE-84B5-B36ADA247E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F91B374-83AB-46BE-84B5-B36ADA247E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F91B374-83AB-46BE-84B5-B36ADA247E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984B3171-0397-4F0F-AE7A-CFB39533437C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984B3171-0397-4F0F-AE7A-CFB39533437C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984B3171-0397-4F0F-AE7A-CFB39533437C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984B3171-0397-4F0F-AE7A-CFB39533437C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

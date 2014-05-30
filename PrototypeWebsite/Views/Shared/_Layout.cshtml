@@ -1,0 +1,17 @@
+﻿@{
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PageBoot!!!!</title>
+    <style type="text/css">@ClientAssetDependencyManager.PageBoot.GetStyleSheet()</style>
+</head>
+<body data-required-javascript="@Model.JavascriptDependenciesToJSON()">
+    <div>
+        @RenderBody()
+    </div>
+    <script id="pagebootScript" type="text/ecmascript">@ClientAssetDependencyManager.PageBoot.GetJavaScript()</script>
+</body>
+</html>
